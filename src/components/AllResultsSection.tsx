@@ -175,6 +175,18 @@ export const AllResultsSection: React.FC<AllResultsSectionProps> = ({ students }
                 </div>
               </>
             )}
+            
+            {/* Quran Verse */}
+            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 border border-yellow-200 rounded-2xl p-6 mt-8 text-center">
+              <p className="text-xl md:text-2xl text-yellow-800 font-bold mb-2" style={{
+                textShadow: '0 0 10px rgba(255, 193, 7, 0.5), 0 0 20px rgba(255, 193, 7, 0.3)'
+              }}>
+                "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+              </p>
+              <p className="text-yellow-700 text-sm">
+                صدق الله العظيم - سورة المزمل
+              </p>
+            </div>
           </div>
         )}
       </div>

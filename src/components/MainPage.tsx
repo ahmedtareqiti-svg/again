@@ -242,16 +242,6 @@ export const MainPage: React.FC<MainPageProps> = ({ onNavigate }) => {
           className="text-center mt-16 animate-fadeInScale"
           style={{ animationDelay: "0.9s" }}
         >
-          {/* Quran Verse */}
-          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-6 mb-8 border border-white/20 shadow-2xl max-w-2xl mx-auto">
-            <p className="text-2xl md:text-3xl text-yellow-200 font-bold glowing-text-main mb-3">
-              "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
-            </p>
-            <p className="text-yellow-300/80 text-lg">
-              صدق الله العظيم - سورة المزمل
-            </p>
-          </div>
-          
           {/* Contact section */}
           <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 mb-8 border border-white/20 shadow-2xl max-w-4xl mx-auto hover:bg-white/15 transition-all duration-300">
             <div className="flex justify-center items-center gap-3 mb-6">
@@ -409,13 +399,6 @@ export const MainPage: React.FC<MainPageProps> = ({ onNavigate }) => {
               </div>
             </div>
           </div>
-
-          <p className="text-blue-200 text-lg">
-            "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
-          </p>
-          <p className="text-blue-300 text-sm mt-2">
-            صدق الله العظيم - سورة المزمل
-          </p>
         </div>
       </div>
     </div>
