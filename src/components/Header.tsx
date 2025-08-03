@@ -44,6 +44,18 @@ export const Header: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      {/* Quran Verse */}
+      <div className="bg-gradient-to-r from-yellow-400/20 via-white/10 to-yellow-400/20 border-t border-yellow-300/30 py-4">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-xl md:text-2xl text-yellow-200 font-bold glowing-text-main mb-2">
+            "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+          </p>
+          <p className="text-yellow-300/80 text-sm">
+            صدق الله العظيم - سورة المزمل
+          </p>
+        </div>
+      </div>
     </header>
   );
 };

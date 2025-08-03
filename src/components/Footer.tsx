@@ -115,6 +115,16 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center relative z-10">
+          {/* Quran Verse */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 mb-6">
+            <p className="text-xl md:text-2xl text-yellow-200 font-bold glowing-text-main mb-2">
+              "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+            </p>
+            <p className="text-yellow-300/80 text-sm">
+              صدق الله العظيم - سورة المزمل
+            </p>
+          </div>
+          
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
             <p className="text-blue-200 text-lg font-semibold mb-2">
               &copy; 2025 مسابقه المولد النبوي الشريف بالجامع الشرقي. جميع الحقوق محفوظة.

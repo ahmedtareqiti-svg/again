@@ -272,65 +272,84 @@ export const MainPage: React.FC<MainPageProps> = ({ onNavigate }) => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              {/* Email section */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-                <div className="flex items-center justify-center gap-3 mb-4">
-                  <div className="bg-gradient-to-r from-blue-500 to-purple-500 p-3 rounded-full shadow-lg">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                    </svg>
+              {/* Contact persons */}
+              <div className="space-y-4">
+                {/* الشيخ مصباح الدكاني */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center gap-4">
+                    <img 
+                      src="/src/assets/mesbah.jpg" 
+                      alt="الشيخ مصباح الدكاني"
+                      className="w-16 h-16 rounded-full object-cover border-2 border-yellow-300 shadow-lg"
+                    />
+                    <div className="flex-1">
+                      <a
+                        href="https://wa.me/201220536204"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-yellow-300 transition-colors font-bold text-lg block glowing-text"
+                      >
+                        الشيخ مصباح الدكاني
+                      </a>
+                      <p className="text-blue-200 text-sm">للتواصل عبر الواتساب</p>
+                    </div>
                   </div>
-                  <h4 className="text-xl font-bold text-blue-200">
-                    البريد الإلكتروني
-                  </h4>
                 </div>
-                <a
-                  href="mailto:tarekaboya2019@gmail.com"
-                  className="text-white hover:text-yellow-300 transition-colors font-semibold text-lg block text-center"
-                >
-                  tarekaboya2019@gmail.com
-                </a>
+
+                {/* الاستاذ اسلام سعيد */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center gap-4">
+                    <img 
+                      src="/src/assets/eslam.jpg" 
+                      alt="الاستاذ اسلام سعيد"
+                      className="w-16 h-16 rounded-full object-cover border-2 border-green-300 shadow-lg"
+                    />
+                    <div className="flex-1">
+                      <a
+                        href="https://wa.me/201276099675"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-yellow-300 transition-colors font-bold text-lg block glowing-text"
+                      >
+                        الاستاذ اسلام سعيد
+                      </a>
+                      <p className="text-blue-200 text-sm">للتواصل عبر الواتساب</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              {/* Phone section */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-                <div className="flex items-center justify-center gap-3 mb-4">
-                  <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-3 rounded-full shadow-lg">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-                    </svg>
+              <div className="space-y-4">
+                {/* احمد طارق علي الدين */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                  <div className="flex items-center gap-4">
+                    <img 
+                      src="/src/assets/me.jpg" 
+                      alt="احمد طارق علي الدين"
+                      className="w-16 h-16 rounded-full object-cover border-2 border-purple-300 shadow-lg"
+                    />
+                    <div className="flex-1">
+                      <a
+                        href="https://wa.me/201559181558"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-yellow-300 transition-colors font-bold text-lg block glowing-text"
+                      >
+                        احمد طارق علي الدين
+                      </a>
+                      <p className="text-blue-200 text-sm">للتواصل عبر الواتساب</p>
+                    </div>
                   </div>
-                  <h4 className="text-xl font-bold text-green-200">
-                    أرقام الهاتف
-                  </h4>
                 </div>
-                <div className="space-y-2 text-center">
-                  <a
-                    href="tel:+01559181558"
-                    className="text-white hover:text-yellow-300 transition-colors font-semibold block"
-                  >
-                    +20 155 918 1558
-                  </a>
-                  <a
-                    href="tel:+201205362040"
-                    className="text-white hover:text-yellow-300 transition-colors font-semibold block"
-                  >
-                    +20 120 536 2040
-                  </a>
-                  <a
-                    href="tel:+201276099675"
-                    className="text-white hover:text-yellow-300 transition-colors font-semibold block"
-                  >
-                    +20 127 609 9675
-                  </a>
+
+                {/* WhatsApp info */}
+                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-2xl p-4 border border-green-300/30">
+                  <div className="flex items-center justify-center gap-2 text-green-200">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                    </svg>
+                    <span className="font-semibold">اضغط على الاسم للتواصل عبر الواتساب</span>
+                  </div>
                 </div>
               </div>
             </div>

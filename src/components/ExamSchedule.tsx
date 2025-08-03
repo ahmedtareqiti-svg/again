@@ -271,6 +271,20 @@ export const ExamSchedule: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      {/* Quran Verse */}
+      <div className="bg-gradient-to-r from-yellow-100/50 to-orange-100/50 border-t border-yellow-300 py-6 mt-8">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-xl md:text-2xl text-yellow-800 font-bold mb-2" style={{
+            textShadow: '0 0 10px rgba(255, 193, 7, 0.5), 0 0 20px rgba(255, 193, 7, 0.3)'
+          }}>
+            "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+          </p>
+          <p className="text-yellow-700 text-sm">
+            صدق الله العظيم - سورة المزمل
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
