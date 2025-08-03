@@ -242,6 +242,51 @@ export const MainPage: React.FC<MainPageProps> = ({ onNavigate }) => {
           className="text-center mt-16 animate-fadeInScale"
           style={{ animationDelay: "0.9s" }}
         >
+          {/* Quran Verse Section */}
+          <div className="bg-gradient-to-r from-yellow-400/20 via-white/10 to-yellow-400/20 border-2 border-yellow-300/50 rounded-3xl p-8 mb-8 relative overflow-hidden">
+            {/* Background decorative elements */}
+            <div className="absolute inset-0 overflow-hidden">
+              <div className="absolute top-4 right-4 text-yellow-300 opacity-30">
+                <BookOpen className="w-16 h-16 animate-spin-slow" />
+              </div>
+              <div className="absolute bottom-4 left-4 text-yellow-200 opacity-20">
+                <Star className="w-12 h-12 animate-bounce-slow" />
+              </div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="w-64 h-64 rounded-full bg-gradient-radial from-yellow-300/10 via-white/5 to-transparent animate-pulse-soft"></div>
+              </div>
+            </div>
+            
+            <div className="relative z-10 text-center">
+              <div className="flex justify-center items-center gap-3 mb-6">
+                <Sparkles className="w-8 h-8 text-yellow-300 animate-pulse" />
+                <div className="w-16 h-1 bg-gradient-to-r from-yellow-300 to-white rounded-full animate-pulse-glow"></div>
+                <Sparkles className="w-8 h-8 text-yellow-300 animate-pulse" style={{ animationDelay: '0.5s' }} />
+              </div>
+              
+              <p className="text-3xl md:text-4xl text-yellow-200 font-bold mb-4 glowing-text-main" style={{
+                textShadow: '0 0 20px rgba(255, 193, 7, 0.8), 0 0 40px rgba(255, 193, 7, 0.6), 0 0 60px rgba(255, 255, 255, 0.4)',
+                fontFamily: 'Noto Sans Arabic, serif'
+              }}>
+                "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+              </p>
+              
+              <div className="flex justify-center items-center gap-2 mb-4">
+                <div className="w-8 h-0.5 bg-gradient-to-r from-transparent to-yellow-300"></div>
+                <p className="text-yellow-300/90 text-lg font-semibold">
+                  صدق الله العظيم - سورة المزمل
+                </p>
+                <div className="w-8 h-0.5 bg-gradient-to-l from-transparent to-yellow-300"></div>
+              </div>
+              
+              <div className="flex justify-center gap-4">
+                <Star className="w-6 h-6 text-yellow-300 animate-pulse floating-star" />
+                <Star className="w-4 h-4 text-white animate-pulse floating-star" style={{ animationDelay: '1s' }} />
+                <Star className="w-5 h-5 text-yellow-200 animate-pulse floating-star" style={{ animationDelay: '2s' }} />
+              </div>
+            </div>
+          </div>
+
           {/* Contact section */}
           <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 mb-8 border border-white/20 shadow-2xl max-w-4xl mx-auto hover:bg-white/15 transition-all duration-300">
             <div className="flex justify-center items-center gap-3 mb-6">
